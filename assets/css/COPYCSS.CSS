@@ -1,0 +1,119 @@
+body {
+   
+    /*margin: 0%;*/
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 50%;
+}
+
+.headersection {
+
+    background:#693C4C;
+     
+    }
+    
+h1 {
+        color: wheat;
+        background-color: #693C4C;
+        font-size: 52px;
+        margin: 0%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+
+a {
+    background-color: red;
+    
+}
+
+
+    
+
+.container /* this action is changing the scale*/
+        {
+    width: 1024px;
+    margin: 0 auto;
+        }
+
+.name {
+    background-color: aliceblue
+    /* Put a 15px margin at the top of all h2 headings. */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+
+}
+
+#main-bio {
+    float: left;
+    width: 70%;
+}
+#contact-info {
+    float: left;
+    width: 30%;
+}
+
+
+
+
+    /* h3 heading tags. */
+h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+    /* All image tags */
+    
+    /*Center a block element in the middle of its enclosing tag. When you use the "auto" rule on both left and right margins, your browser will do the math necessary to center a block element. */
+img {
+    height: 300px;
+    
+    
+    /* Block display (more on this later) */
+   /* display: relative;*/
+}
+
+/* .bio-image {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60%;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;*/
+
+    /* All p tags*/
+p {
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+   /* padding-left: 70px;
+    padding-right:70px;*/
+}
+
+    /* All Unordered list tags */
+ul {
+    font-size: 18px;
+    /* Give an element a solid border */
+    border-style: solid; 
+    /* Render the border 5px thick */
+    *border-width: 5px;
+    /* Include bullets in the content flow */
+    /* More info here: http://www.w3schools.com/cssref/pr_list-style-position */
+    /*list-style: none;*/
+    background:#a84066;
+    color: wheat;
+}
+
+/*---hyperlink color*/
+a {
+    color: blue;
+}
+
+
+
+
